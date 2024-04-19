@@ -48,10 +48,10 @@ export default hopeTheme({
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
-      // repo: "",
-      // repoId: "",
-      // category: "Announcements",
-      // categoryId: "",
+      repo: "cilliandevops/plan",
+      repoId: "R_kgDOLu9eUg",
+      category: "Announcements",
+      categoryId: "DIC_kwDOLu9eUs4Cey0i",
     },
 
     components: {
