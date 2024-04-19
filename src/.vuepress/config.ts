@@ -6,7 +6,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "灯塔",
-  description: "vuepress-theme-hope 的文档演示",
+  description: "脚下的路更明了",
 
   theme,
 

@@ -2,15 +2,15 @@
 home: true
 icon: home
 title: 主页
-# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/8-light.svg
+heroImage: /logo.png
+bgImage: https://theme-hope-assets.vuejs.press/bg/12-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText:  灯塔
 tagline: 让脚下的路更明了！
 actions:
-  - text: 使用指南
+  - text: 照明
     icon: lightbulb
     link: ./dev/
     type: primary
@@ -40,78 +40,78 @@ highlights:
     features:
       - title: 1. 目标
         # icon: clipboard-check
-        details: 检查 Markdown 链接
+        details: 明确要实现的具体结果，是计划行动的指导方向
         # link: 
 
       - title: 2. 动机
         # icon: box-archive
-        details: 用样式装饰 Markdown 内容
+        details: 阐述计划的重要性和推动实施计划的内在驱动力
         link: 
       - title: 3. 时间框架
         # icon: box-archive
-        details: 用样式装饰 Markdown 内容
+        details: 设定计划的开始和结束日期，为整个过程提供时间限制
         link: 
         
       - title: 4. 所需资源
         # icon: box-archive
-        details: 用样式装饰 Markdown 内容
+        details: 列出完成计划所需的资金、人员、设备和信息等资源
         link: 
       - title: 5. 执行步骤
         # icon: box-archive
-        details: 用样式装饰 Markdown 内容
+        details: 分解具体行动步骤，明确每一环节的工作内容
         link: 
       - title: 6. 优先级
         # icon: box-archive
-        details: 用样式装饰 Markdown 内容
+        details: 确定各任务的重要性，保证按照顺序和重要性执行任务
         link: 
       - title: 7. 进度监控
         # icon: box-archive
-        details: 用样式装饰 Markdown 内容
+        details: 设定检查点以跟踪计划的进展，确保按时按质完成
         link: 
       - title: 8. 风险评估
         # icon: box-archive
-        details: 用样式装饰 Markdown 内容
+        details: 识别可能的挑战和障碍，并预先考虑应对策略
         link: 
       - title: 9. 灵活性
         # icon: box-archive
-        details: 用样式装饰 Markdown 内容
+        details: 保持计划的可调整性，以适应不可预见的变化和情况
         link:   
 
       - title:  10. 评估和反馈
         # icon: box-archive
-        details: 用样式装饰 Markdown 内容
+        details: 在计划执行过程中及其后评估结果，并根据反馈进行调整
         link:  
-#     highlights:
-#       - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
-#       - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
+    # highlights:
+    #   - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
+    #   - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
 
-  # - header: 在 Markdown 中添加你想要的内容
-  #   description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
-  #   image: /assets/image/markdown.svg
-  #   bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-  #   bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
-  #   bgImageStyle:
-  #     background-repeat: repeat
-  #     background-size: initial
-  #   features:
-  #     - title: 链接检查
-  #       icon: clipboard-check
-  #       details: 检查 Markdown 链接
-  #       link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
+  - header: 什么是PDCA
+    description: PDCA是一个反复循环的四步管理方法，用于持续改进过程和解决问题，包括计划（Plan）、执行（Do）、检查（Check）和行动（Act）
+    image: /assets/image/layout.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    bgImageStyle:
+      background-repeat: repeat
+      background-size: initial
+    highlights:
+      - title: 计划（Plan）
+        icon: clipboard-check
+        details: 确定目标和过程，以及如何达到结果的方法
+        # link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
 
-  #     - title: 提示容器支持
-  #       icon: box-archive
-  #       details: 用样式装饰 Markdown 内容
+      - title: 执行（Do）
+        icon: box-archive
+        details: 实施计划，执行过程，制造产品
   #       link: https://theme-hope.vuejs.press/zh/guide/markdown/hint.html
 
-  #     - title: GFM 警告
-  #       icon: bell
-  #       details: GFM 风格的警告容器
+      - title: 检查（Check）
+        icon: bell
+        details: 对执行的结果进行监控和评估，与预期目标进行比较
   #       link: https://theme-hope.vuejs.press/zh/guide/markdown/alert.html
 
-  #     - title: 选项卡
-  #       icon: table-columns
-  #       details: 使用选项卡对相似内容进行分组
+      - title: 行动（Act）
+        icon: table-columns
+        details: 根据检查的结果，采取行动纠正偏差，并改善性能
   #       link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
 
   #     - title: 代码组
