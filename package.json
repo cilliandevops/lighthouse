@@ -1,6 +1,6 @@
 {
-  "name": "plan",
-  "version": "1.0.0",
+  "name": "lighthouse",
+  "version": "1.0.1",
   "description": "just do it",
   "license": "MIT",
   "type": "module",
@@ -12,11 +12,11 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.9",
-    "vue": "^3.4.21",
+    "vue": "^3.4.31",
     "vuepress": "2.0.0-rc.9",
     "vuepress-theme-hope": "2.0.0-rc.36"
   },
   "dependencies": {
-    "@vueuse/core": "^10.9.0"
+    "@vueuse/core": "^10.11.0"
   }
 }
