@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "cilliandevops/lighthouse",
 
   docsDir: "src",
 
@@ -48,7 +48,7 @@ export default hopeTheme({
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
-      repo: "cilliandevops/plan",
+      repo: "cilliandevops/lighthouse",
       repoId: "R_kgDOLu9eUg",
       category: "Announcements",
       categoryId: "DIC_kwDOLu9eUs4Cey0i",
